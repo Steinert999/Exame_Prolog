@@ -22,12 +22,6 @@
 
 ![Spring Boot Test version][spring-boot-test-version]
 
-## Execução:
-
-- A execução pode ser feita das seguintes maneiras:
-    - Com Maven: `mvn spring-boot:run`
-    - Diretamente no editor de sua preferência
-
 [java-version]: https://img.shields.io/badge/java-v11.0.1-orange
 [spring-boot-version]: https://img.shields.io/badge/spring--boot-v2.3.4.RELEASE-green
 [spring-data-jpa-version]: https://img.shields.io/badge/spring--data--jpa-v2.3.4.RELEASE-green
