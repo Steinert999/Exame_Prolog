@@ -3,15 +3,25 @@
 ## Tecnologias Utilizadas
 
 ![Java version][java-version]
+</br>
 ![SpringBoot version][spring-boot-version]
+</br>
 ![Spring Data JPA version][spring-data-jpa-version]
+</br>
 ![Spring Web version][spring-web-version]
+</br>
 ![Lombok version][lombok-version]
+</br>
 ![Hibernate Validator version][hibernate-validator-version]
+</br>
 ![Maven version][maven-version]
+</br>
 ![Spring Tomcat version][spring-tomcat-version]
+</br>
 ![Postgresql version][postgresql-version]
+</br>
 ![Spring Devtools version][spring-devtools-version]
+</br>
 
 
 [java-version]: https://img.shields.io/badge/java-v11.0.1-orange
