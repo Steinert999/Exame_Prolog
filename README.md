@@ -2,8 +2,6 @@
 
 ## Tecnologias Utilizadas
 
-### Produção
-
 ![Java version][java-version]
 ![SpringBoot version][spring-boot-version]
 ![Spring Data JPA version][spring-data-jpa-version]
@@ -13,9 +11,6 @@
 ![Maven version][maven-version]
 ![Spring Tomcat version][spring-tomcat-version]
 ![Postgresql version][postgresql-version]
-
-### Desenvolvimento
-
 ![Spring Devtools version][spring-devtools-version]
 
 
