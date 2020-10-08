@@ -1,6 +1,7 @@
 package com.steinert.exame_prolog.services.mark_data;
 
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.List;
 import com.steinert.exame_prolog.dto.MarkData;
 import com.steinert.exame_prolog.dto.MarkInterval;
@@ -27,7 +28,9 @@ public class MarkDataServiceImpl implements MarkDataService {
 
         List<MarkInterval> intervals = this.intervalService.createIntervals(bonds);
 
-        return MarkData.builder().day(day.toLocalDate()).intervals(intervals).build();
+        LocalTime hours = this.intervalService.getTotalTime(intervals);
 
+        return MarkData.builder().day(day.toLocalDate()).intervals(intervals).totalHours(hours)
+                .build();
     }
 }
