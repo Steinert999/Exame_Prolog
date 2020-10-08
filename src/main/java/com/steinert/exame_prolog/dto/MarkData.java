@@ -1,6 +1,7 @@
 package com.steinert.exame_prolog.dto;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Builder;
@@ -14,5 +15,8 @@ public class MarkData {
     LocalDate day;
 
     List<MarkInterval> intervals;
+
+    @JsonFormat(pattern = "HH:mm:ss")
+    LocalTime totalHours;
 
 }
